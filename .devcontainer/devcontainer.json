@@ -1,5 +1,5 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/miniconda:3",
+    "image": "mcr.microsoft.com/devcontainers/python:3",
     // Configure tool-specific properties.
     "customizations": {
         // Configure properties specific to VS Code.
@@ -16,5 +16,7 @@
                 "ms-toolsai.vscode-jupyter-slideshow"
             ]
         }
-    }
+    },
+    "postCreateCommand": "pip install numpy; pip install ipykernel -U --user --force-reinstall"
 }
+
