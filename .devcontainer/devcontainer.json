@@ -1,16 +1,12 @@
 {
-    "postCreateCommand": "pip install --upgrade numpy ipykernel nbstripout && nbstripout --install --attributes .gitattributes",
+    "postCreateCommand": "python -m pip install --upgrade numpy ipykernel nbstripout && nbstripout --install --attributes .gitattributes",
+
     "customizations": {
         "vscode": {
             "extensions": [
-                "ms-toolsai.jupyter",
-                "ms-toolsai.jupyter-keymap",
-                "ms-toolsai.jupyter-renderers",
-                "ms-toolsai.vscode-jupyter-cell-tags",
-                "ms-toolsai.vscode-jupyter-slideshow",
-                "ms-python.python"
+                "ms-python.python",
+                "ms-toolsai.jupyter"
             ]
         }
     }
 }
-
