@@ -1,22 +1,16 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/python:3",
-    // Configure tool-specific properties.
+    "postCreateCommand": "pip install --upgrade numpy ipykernel nbstripout && nbstripout --install --attributes .gitattributes",
     "customizations": {
-        // Configure properties specific to VS Code.
         "vscode": {
-            // Add the IDs of extensions you want installed when the container is created.
             "extensions": [
-                "ms-python.debugpy",
-                "ms-python.python",
-                "ms-python.vscode-pylance",
                 "ms-toolsai.jupyter",
                 "ms-toolsai.jupyter-keymap",
                 "ms-toolsai.jupyter-renderers",
                 "ms-toolsai.vscode-jupyter-cell-tags",
-                "ms-toolsai.vscode-jupyter-slideshow"
+                "ms-toolsai.vscode-jupyter-slideshow",
+                "ms-python.python"
             ]
         }
-    },
-    "postCreateCommand": "pip install numpy; pip install ipykernel -U --user --force-reinstall"
+    }
 }
 

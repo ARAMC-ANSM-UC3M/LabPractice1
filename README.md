@@ -1,10 +1,10 @@
 # ANSM Lab Practice 1
 
 In this lab, we are going to use a Jupyter Notebook. In this repository, you will find a stub notebook.
-The instructions and the questions for running the code are directly embedded in the notebook. 
+The instructions and the questions for running the code are directly embedded in the notebook.
 Follow the steps by running the notebook cells.
 
-## Creating the environmet
+## Creating the environment
 
 Run in GitHub Codespaces, a cloud-based development environment that lets you code directly in your browser or in VS Code without installing anything.
 
@@ -13,8 +13,7 @@ Run in GitHub Codespaces, a cloud-based development environment that lets you co
 - In the dropdown, select the "Codespaces" tab.
 - Click "Create codespace on main". Wait for the environment to finish setting up, and you’re ready to go.
 
-Once loaded, look on the left side panel. Double click on the `ANSM_CRC_Lab.ipynb`.
-Follow the steps
+Once loaded, look on the left side panel and double click on `ANSM_CRC_Lab.ipynb` to open it.
 
 ## Evaluation
 
